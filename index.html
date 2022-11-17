@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abhishek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo1.png" alt="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Skills</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web-Developer</p>
+                <h1>Hi,I'm <span>Abhishek</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user.jpg" alt="person">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quo animi beatae maiores
+                        consequatur! Iusto voluptatibus distinctio, ducimus reiciendis dolore mollitia consectetur
+                        dolorum amet ipsa, laborum nobis exercitationem molestiae dolorem!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiances')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack Web-Development</span><br>Web app Development</li>
+                            <li><span>Java Programming</span><br>Core Java fundamentals and programming.</li>
+                            <li><span>Python Programming</span><br>Core Python fundamentals and programming.</li>
+                            <li><span>Soft Skills</span><br>Communication skills<br>Analytical skills<br>Problem solving
+                                skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiances">
+                        <ul>
+                            <li><span>NOV 2022</span><br>Web-Developer & designer Intern @Oasis Infobyte</li>
+                            <li><span>OCT 2022</span><br>Web-Developer & designer Intern @Let's GrowMore</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Present</span><br>B.tech(Computer Science & Engineering) at SVCE Tirupati
+                            </li>
+                            <li><span>2018-2020</span><br>Intemediate from Sri Chaitanya Educational Institutes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Skills section  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut suscipit quia doloribus
+                        accusantium excepturi maiores quasi, consectetur quis. Sequi eius rerum modi reiciendis
+                        perferendis magni, velit doloremque quasi sunt.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Programming</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut suscipit quia doloribus
+                        accusantium excepturi maiores quasi, consectetur quis. Sequi eius rerum modi reiciendis
+                        perferendis magni, velit doloremque quasi sunt.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Programming</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut suscipit quia doloribus
+                        accusantium excepturi maiores quasi, consectetur quis. Sequi eius rerum modi reiciendis
+                        perferendis magni, velit doloremque quasi sunt.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Works section -->
+
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>App1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem omnis est illum
+                            molestias quasi magnam error sit ut hic. Enim unde eius facilis error. Asperiores veniam
+                            aliquam rem molestias.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>App2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem omnis est illum
+                            molestias quasi magnam error sit ut hic. Enim unde eius facilis error. Asperiores veniam
+                            aliquam rem molestias.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>App3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem omnis est illum
+                            molestias quasi magnam error sit ut hic. Enim unde eius facilis error. Asperiores veniam
+                            aliquam rem molestias.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+<!-- Contact Me section -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <h1 class="sub-title">Contact Me</h1>
+            <a class="btn" href="mailto:sahspeaks@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a class="btn" href="tel:+916281485314"><i class="fa-solid fa-phone-volume"></i></a>
+            <div class="social-icons">
+                <a class="footer-link" href="https://www.linkedin.com/in/sahspeaks/" target="_ "><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a class="footer-link" href="https://github.com/sahspeaks" target="_ "><i class="fa-brands fa-github fa-2x"></i></a>
+                <a class="footer-link" href="https://twitter.com/Sah_speaks" target="_ "><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a class="footer-link" href="https://www.instagram.com/sah_speaks/" target="_ "><i class="foot-icons fa-brands fa-instagram fa-2x"></i></a>
+                <p class="copyright">© 2022 Sah Abhishek Kumar</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let tablinks = document.getElementsByClassName('tab-links');
+        let tabcontents = document.getElementsByClassName('tab-contents');
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link')
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove('active-tab')
+            }
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+</body>
+
+</html>
