@@ -9,21 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
 </head>
 
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <img class="logo" src="images/logo1.png" alt="logo">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact</a></li>
+                <img class="logo" src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#works">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fa" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars fa" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Web-Developer</p>
@@ -40,9 +41,11 @@
                 </div>
                 <div class="about-col2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quo animi beatae maiores
-                        consequatur! Iusto voluptatibus distinctio, ducimus reiciendis dolore mollitia consectetur
-                        dolorum amet ipsa, laborum nobis exercitationem molestiae dolorem!</p>
+                    <p>I'm student at SVCE 
+                        Pursuing my B.tech in Computer Science. <br>
+                        Love Web Development 💕
+                        I enjoy exploring new technologies. <br>
+                        I am a quick learner with a fun, outgoing personality.</p>
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experiances')">Experience</p>
@@ -82,26 +85,30 @@
                 <div>
                     <i class="fa-solid fa-code"></i>
                     <h2>Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut suscipit quia doloribus
-                        accusantium excepturi maiores quasi, consectetur quis. Sequi eius rerum modi reiciendis
-                        perferendis magni, velit doloremque quasi sunt.</p>
-                    <a href="">Learn More</a>
+                    <p>» I spend my whole day, practically every day, experimenting with HTML, CSS, JavaScript, Node.Js,
+                        Express.Js, MongoDB & Reactjs.</p><br>
+
+                    <p> »I'm curious, and I enjoy work that challenges me to learn something new .</p><br>
+
+                    <p> »I build websites that delight and inform. I do it well.</p>
+
                 </div>
                 <div>
                     <i class="fa-brands fa-java"></i>
                     <h2>Java Programming</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut suscipit quia doloribus
-                        accusantium excepturi maiores quasi, consectetur quis. Sequi eius rerum modi reiciendis
-                        perferendis magni, velit doloremque quasi sunt.</p>
-                    <a href="">Learn More</a>
+                    <p>»Understanding, analyzing, and implementing Java programs.</p><br>
+                    <p> »Core Java fundamentals and programming.</p>
                 </div>
                 <div>
                     <i class="fa-brands fa-python"></i>
                     <h2>Python Programming</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut suscipit quia doloribus
-                        accusantium excepturi maiores quasi, consectetur quis. Sequi eius rerum modi reiciendis
-                        perferendis magni, velit doloremque quasi sunt.</p>
-                    <a href="">Learn More</a>
+                    <p>»Understanding, analyzing, and implementing programs.</p><br>
+
+                    <p> »Developing – Backend components to enhance performance.</p><br>
+
+                    <p> »Working with Python libraries like Pandas, NumPy, etc.</p><br>
+
+                    <p> »Core Python fundamentals and programming.</p>
                 </div>
             </div>
 
@@ -114,64 +121,138 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png" alt="">
+                    <img src="images/Hunger-A Food Delivery App.png" alt="">
                     <div class="layer">
-                        <h3>App1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem omnis est illum
-                            molestias quasi magnam error sit ut hic. Enim unde eius facilis error. Asperiores veniam
-                            aliquam rem molestias.</p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Hunger-A Food Delivery App</h3>
+                        <p>
+                            A food delivery app landing page <br>Made using html css bootstrap
+                        </p>
+                        <a href="https://sahspeaks.github.io/Hunger/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png" alt="">
+                    <img src="images/Kinder-A dating App.png" alt="">
                     <div class="layer">
-                        <h3>App2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem omnis est illum
-                            molestias quasi magnam error sit ut hic. Enim unde eius facilis error. Asperiores veniam
-                            aliquam rem molestias.</p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Kinder-A Dating App</h3>
+                        <p>A dating app landing page clone<br>Made using html css bootstrap</p>
+                        <a href="https://sahspeaks.github.io/Kinder/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png" alt="">
+                    <img src="images/Calculator.png" alt="">
                     <div class="layer">
-                        <h3>App3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatem omnis est illum
-                            molestias quasi magnam error sit ut hic. Enim unde eius facilis error. Asperiores veniam
-                            aliquam rem molestias.</p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <h3>Calculator</h3>
+                        <p>Calculator App<br>Made using html css bootstrap javascript</p>
+                        <a href="https://sahspeaks.github.io/Calculator/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Temp-Converter.png" alt="">
+                    <div class="layer">
+                        <h3>Temperature-Converter</h3>
+                        <p>A Temperature-Converter App <br>Conversion between celcius & fahrenheit <br>Made using html
+                            css bootstrap javascript</p>
+                        <a href="https://sahspeaks.github.io/Temperature-Converter/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Weather-App.png" alt="">
+                    <div class="layer">
+                        <h3>Weather-App</h3>
+                        <p>Weather-App <br>It takes city name and shows current temperature and possible MAX & MIN
+                            temperature<br>Made using html css bootstrap javascript nodejs expressjs OpenWeather's API
+                        </p>
+                        <a href="https://wetherapp-speaks.herokuapp.com" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ToDoList.png" alt="">
+                    <div class="layer">
+                        <h3>Todo List</h3>
+                        <p>Todo List with minimal interface <br>tasks can be added and deleted once completed <br>Made
+                            using html css bootstrap javascript nodejs expressjs MongoDB</p>
+                        <a href="https://safe-plateau-28858.herokuapp.com/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/News-App.png" alt="">
+                    <div class="layer">
+                        <h3>News Nation</h3>
+                        <p>News App<br>We can select country and category and it provides Top News<br>Made using html
+                            css bootstrap javascript nodejs expressjs News-API</p>
+                        <a href="https://sah-newsapp.herokuapp.com" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/contact.png" alt="">
+                    <div class="layer">
+                        <h3>Contact App</h3>
+                        <p>A React based contact app <br>Displays contact cards with call functionality <br>Made using
+                            React and bootstrap</p>
+                        <a href="https://contacts-app-red.vercel.app/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/TextAnalyzer.png" alt="">
+                    <div class="layer">
+                        <h3>Text Analyser</h3>
+                        <p>A React based Word & character counting app <br>It also has download, read aloud & many more
+                            functionality <br>Made using React & Bootstrap</p>
+                        <a href="https://word-analyzer.vercel.app/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/myNotes.png" alt="">
+                    <div class="layer">
+                        <h3>Notes App</h3>
+                        <p>A React based Notes taking app with Secured Authentication <br>Every user has their own
+                            database <br>Made using React Nodejs expressjs and MongoDB</p>
+                        <a href="https://makemynotes.netlify.app/" target="_ "><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="" class="btn">See More</a>
         </div>
     </div>
-<!-- Contact Me section -->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <h1 class="sub-title">Contact Me</h1>
-            <a class="btn" href="mailto:sahspeaks@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            <a class="btn" href="tel:+916281485314"><i class="fa-solid fa-phone-volume"></i></a>
-            <div class="social-icons">
-                <a class="footer-link" href="https://www.linkedin.com/in/sahspeaks/" target="_ "><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                <a class="footer-link" href="https://github.com/sahspeaks" target="_ "><i class="fa-brands fa-github fa-2x"></i></a>
-                <a class="footer-link" href="https://twitter.com/Sah_speaks" target="_ "><i class="fa-brands fa-twitter fa-2x"></i></a>
-                <a class="footer-link" href="https://www.instagram.com/sah_speaks/" target="_ "><i class="foot-icons fa-brands fa-instagram fa-2x"></i></a>
-                <p class="copyright">© 2022 Sah Abhishek Kumar</p>
+    <!-- Contact Me section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-phone-volume"></i>+916281485314</p>
+                    <p><i class="fa-regular fa-paper-plane"></i>sahspeaks@gmail.com</p>
+                    <div class="social-icons">
+                        <a class="footer-link" href="https://www.linkedin.com/in/sahspeaks/" target="_ "><i
+                                class="fa-brands fa-linkedin fa-2x"></i></a>
+                        <a class="footer-link" href="https://github.com/sahspeaks" target="_ "><i
+                                class="fa-brands fa-github fa-2x"></i></a>
+                        <a class="footer-link" href="https://twitter.com/Sah_speaks" target="_ "><i
+                                class="fa-brands fa-twitter fa-2x"></i></a>
+                        <a class="footer-link" href="https://www.instagram.com/sah_speaks/" target="_ "><i
+                                class="foot-icons fa-brands fa-instagram fa-2x"></i></a>
+                    </div>
+                    <a href="images/Profile.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-
-
-
-
-
-
-
+    <!-- Footer -->
+    <footer id="footer">
+        <p class="copyright">© 2022 Sah Abhishek Kumar</p>
+    </footer>
 
 
     <script>
@@ -186,6 +267,15 @@
             }
             event.currentTarget.classList.add('active-link')
             document.getElementById(tabname).classList.add('active-tab')
+        }
+    </script>
+    <script>
+        let sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = '0'
+        }
+        function closemenu() {
+            sidemenu.style.right = '-200px'
         }
     </script>
 </body>
